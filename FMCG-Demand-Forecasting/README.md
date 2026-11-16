@@ -4,20 +4,24 @@ This project is an end-to-end data science capstone focused on demand planning f
 
 ## What’s in this folder (target structure)
 
-- `data/raw/` — raw inputs (not committed with large/sensitive data by default)
+- `data/raw/` — raw inputs (small companion files included; main large CSV is not committed)
 - `data/processed/` — cleaned/aggregated datasets
 - `notebooks/`
-  - `01_data_preparation.ipynb` (planned)
-  - `02_exploratory_analysis.ipynb` (planned)
-  - `03_abc_xyz_analysis.ipynb` (planned)
-  - `04_statistical_analysis.ipynb` (planned)
-  - `05_feature_engineering.ipynb` (planned)
-  - `06_demand_forecasting.ipynb` — current consolidated capstone notebook
+  - `01_data_preparation.ipynb`
+  - `02_exploratory_analysis.ipynb`
+  - `03_abc_xyz_analysis.ipynb`
+  - `04_statistical_analysis.ipynb`
+  - `05_feature_engineering.ipynb`
+  - `06_demand_forecasting.ipynb` — consolidated capstone notebook
 - `scripts/`
-  - `preprocessing.py` (planned)
-  - `forecasting.py` (planned)
+  - `preprocessing.py`
+  - `forecasting.py`
 - `outputs/figures/`, `outputs/forecasts/`
 - `presentation/` — includes the full capstone report (`FMCG_Global_Demand_Planning_Forecasting_Capstone_Report.docx`)
+
+## Raw data
+- Main file (not committed due to GitHub size limits): `fmcg_sales_3years_1M_rows.csv` (~203 MB). Place it in `FMCG-Demand-Forecasting/data/raw/` (obtain from the original source/archive provided for this project).
+- Included in repo: `data/raw/data_dictionary.csv`, `data/raw/Train.csv`, `data/raw/Test.csv`, `data/raw/climate_features.csv`.
 
 ## Summary (from the report)
 
